@@ -447,6 +447,11 @@
   document.addEventListener('contextmenu', function(e){ e.preventDefault(); });
 })();
 </script>
-
+if ('serviceWorker' in navigator) {
+window.addEventListener('load', () => {
+navigator.serviceWorker.register('./Serviceworker.js');
+});
+}
+</script>
 </body>
 </html>
