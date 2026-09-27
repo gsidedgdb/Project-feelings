@@ -1,7 +1,7 @@
 {
   "name": "Heart Tap - Feelings App",
   "short_name": "Heart Tap",
-  "start_url": "./",
+  "start_url": "Project-feelings/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ff4d4d",
