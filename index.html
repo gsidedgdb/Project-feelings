@@ -446,7 +446,7 @@
   document.addEventListener('dblclick', function(e){ e.preventDefault(); }, {passive:false});
   document.addEventListener('contextmenu', function(e){ e.preventDefault(); });
 })();
-</script>
+<script>
 if ('serviceWorker' in navigator) {
 window.addEventListener('load', () => {
 navigator.serviceWorker.register('./Serviceworker.js');
